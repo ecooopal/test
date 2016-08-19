@@ -73,7 +73,9 @@ a:hover {
 .img-centered {
     margin: 0 auto
 }
-
+.display-none {
+  display: none;
+}
 .bg-light-gray {
     background-color: #eee
 }
