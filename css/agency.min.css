@@ -702,7 +702,7 @@ section#contact .text-danger {
 /* Map */
 
 .map {
-    height: 1250px;
+    height: 1300px;
 }
 
 @media(max-width:768px) {
