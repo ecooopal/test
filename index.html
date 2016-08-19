@@ -342,34 +342,41 @@
                     <i class="fa fa-envelope-o fa-3x sr-contact"></i>
                     <p><a href="mailto:your-email@your-domain.com">ecooopal@yahoo.com.au</a></p>
                 </div>
-           </div>
-
+            </div>
             <br>
             <div class="row">
-            <div class="col-lg-12">
-                <iframe width="100%" height="300px" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://www.google.com/maps/embed/v1/place?q=place_id:ChIJrVXO4EKuEmsRBERZMDDknHw&amp;key=AIzaSyCmCTz7akLWQv2UIAST9eGx36lSP1g7kHQ"></iframe>
-                <small>
+                <div class="col-lg-12">
+                    <iframe width="100%" height="300px" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://www.google.com/maps/embed/v1/place?q=place_id:ChIJrVXO4EKuEmsRBERZMDDknHw&amp;key=AIzaSyCmCTz7akLWQv2UIAST9eGx36lSP1g7kHQ"></iframe>
+                    <small>
             <a href="https://www.google.com/maps/embed/v1/place?q=place_id:ChIJrVXO4EKuEmsRBERZMDDknHw&amp;key=AIzaSyCmCTz7akLWQv2UIAST9eGx36lSP1g7kHQ" ></a>
         </small>
-              </div>  
-            </div><br><br>
-        <h3 class="text-white">Send us a message <br>we would love to hear from you!</h4><br>
+                </div>
+            </div>
+            <br>
+            <br>
+            <h3 class="text-white">Send us a message <br>we would love to hear from you!</h4><br>
         
             <div class="row">
                 <div class="col-lg-12">
                     <form id="contact-form">
+                                  <div class="row">
+                            <div class="col-md-6">
+                              <div class="form-group">
+                                    <input type="text" class="form-control" placeholder="Your Name *" id="name" required data-validation-required-message="Please enter your name.">
+                                    <p class="help-block text-danger"></p>
+                                </div>
           <div class="form-group center-block">
-            <label for="inputName">Name</label>
-            <input type="text" class="form-control contact-input" id="inputName" placeholder="Name" name="name"/>
-          </div>
-          <div class="form-group center-block">
-            <label for="inputEmail">Email</label>
+            
             <input type="email" class="form-control contact-input" id="inputEmail" placeholder="Email" name="email"/>
           </div>
+          </div>
+          <div class="col-md-6">
           <div class="form-group center-block">
-            <label for="inputMessage">Message</label>
+           
             <textarea id="inputMessage" class="form-control contact-input" rows="3" placeholder="Your Message" name="message"></textarea>
           </div>
+          </div>
+</div>
           <input type="text" name="_gotcha" style="display:none" />
           <div class="text-center">
             <button class="btn btn-default" type="submit" id="email-submit-btn" value="Send">Submit</button>
