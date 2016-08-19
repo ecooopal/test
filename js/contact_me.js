@@ -21,7 +21,7 @@ $(function() {
             }
             $.ajax({
                 method: 'POST',
-                url: 'http://formspree.io/itony215@gmail.com',
+                url: 'https://formspree.io/itony215@gmail.com',
                 data: {
                     name: name,
                     phone: phone,
