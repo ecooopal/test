@@ -13,7 +13,7 @@ $(document).ready(function() {
         else {
           $.ajax({
             method: 'POST',
-            url: '//formspree.io/your@email.com',
+            url: '//formspree.io/itony215@gmail.com',
             data: $('#contact-form').serialize(),
             datatype: 'json'
           });
