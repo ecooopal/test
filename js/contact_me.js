@@ -28,7 +28,6 @@ $(function() {
                     email: email,
                     message: message
                 },
-                cache: false,
                 success: function() {
                     // Success message
                     $('#success').html("<div class='alert alert-success'>");
