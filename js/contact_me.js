@@ -22,8 +22,13 @@ $(function() {
             $.ajax({
                 method: 'POST',
                 url: '//formspree.io/itony215@gmail.com',
-                data: $('#contact-form').serialize(),
-                datatype: 'json',
+                data: {
+                    name: name,
+                    phone: phone,
+                    email: email,
+                    message: message
+                },
+                cache: false,
                 success: function() {
                     // Success message
                     $('#success').html("<div class='alert alert-success'>");
